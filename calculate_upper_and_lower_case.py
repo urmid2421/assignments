@@ -9,15 +9,15 @@
 
 sample_string = 'The quick Brow Fox'
 
-count_upper = 0
-count_lower = 0
+def uppercase_lowercase():
+    count_upper = 0
+    count_lower = 0 
+    for i in sample_string:
+        if i.isupper():
+            count_upper += 1
+        if i.islower():
+            count_lower += 1 
+    print("No. of upper case characters :",count_upper)
+    print("No. of lower case characters : ",count_lower)
 
-for i in sample_string:
-    if i.isupper():
-        count_upper += 1
-    if i.islower():
-        count_lower += 1 
-        
-
-print("No. of upper case characters :",count_upper)
-print("No. of lower case characters : ",count_lower)
+uppercase_lowercase()
