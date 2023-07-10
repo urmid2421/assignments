@@ -5,7 +5,10 @@
 
 sample_string = "1234abcd"
 
-temp = ""
-for i in sample_string:
-    temp = i + temp
-print("Expected Output :",temp)
+def reverse_string():
+    temp = ""
+    for i in sample_string:
+        temp = i + temp
+    print("Expected Output :",temp)
+
+reverse_strig()
