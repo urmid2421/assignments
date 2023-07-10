@@ -8,7 +8,9 @@
 
 sample_list = (8,2,3,0,7)
 
-count = 0
-for i in sample_list:
-    count += i
-print("Expected ouput :",count)
+def sum_of_numbers():
+    count = 0
+    for i in sample_list:
+        count += i
+    print("Expected ouput :",count)
+sum_of_numbers()    
