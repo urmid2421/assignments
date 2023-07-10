@@ -11,4 +11,4 @@ def reverse_string():
         temp = i + temp
     print("Expected Output :",temp)
 
-reverse_strig()
+reverse_string()
